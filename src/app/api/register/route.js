@@ -1,7 +1,7 @@
 import connectToDB from "@/database";
 import Joi from "joi";
 import { NextResponse } from "next/server";
-import User from "@/models/User"; // Adjust the import path to your User model
+import User from "@/models/user"; // Adjust the import path to your User model
 import { hash } from "bcryptjs"; // Adjust the import path to bcryptjs
 
 const schema = Joi.object({
